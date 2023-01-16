@@ -103,7 +103,7 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: false
+      disableProjects: true
       disableAchievements: false
       disableContact: false
 
@@ -113,12 +113,12 @@ params:
     intro: "Bonjour! Je suis "
     title: "Alban Le Rouzic"
     subtitle: "Ingénieur en Informatique"
-    content: "Passioné par les sciences du numérique, j'ai entrepris un cursus orienté génie logiciel dès mon entré en école d'ingénieur, mon envie de mettre à profit et de rendre concret mes compétences dans ce domaine, mon conduit poursuivre mes études en école d'ingénieur par la filière en alternance"
+    content: "Passionné par les sciences du numérique, j’ai entrepris un cursus orienté génie logiciel dès mon entrée en école d’ingénieur. Mon envie de mettre à profit et de rendre concret mes compétences dans ce domaine, m'a conduit à poursuivre mes études en école d’ingénieur par la filière en alternance."
     image: /images/hero.svg
     button:
       enable: true
       name: "CV"
-      url: "#"
+      url: "https://portfolio-alban-lr.netlify.app/images/cv.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -236,11 +236,12 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     title: "Projets"
     items: 
       - title: Application android de scan et d'identification d'alergènes | site web pour la gestion des abonnés au service  
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        id : radish
         image: /images/projects/dish.png
         # featured:
         #   name: Demo
@@ -254,6 +255,7 @@ params:
 
       - title: HydroMétéo
         content: Un panneau LED qui affiche les données météo et hydrographique en fonction de la localité souhaitée
+        id : hydro
         image: /images/projects/hydro.png
         badges:
           - "Python"
@@ -261,6 +263,7 @@ params:
           - "AdaFruit"
 
       - title: Star Wars Tic Tac Toe
+        id : tictac
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
         image: /images/projects/sw.png
         # featured:
@@ -274,6 +277,7 @@ params:
             url: https://github.com/ALbanLR/MORISEN_HTA_ALR
 
       - title: Site pour une personne en reconversion
+        id : site
         content: Mise en place d'un site Wordpress et de ses bases, accompagnement de la personne dans l'outil pour assurer son autonomie dans la création et modification de contenus
         image: /images/projects/st.png
         featured:
@@ -283,6 +287,7 @@ params:
           - "Wordpress"
 
       - title: Pong
+        id : pong
         content: Un jeu pong en C++ et en Qt
         image: /images/projects/pong.png
         # featured:
@@ -296,6 +301,7 @@ params:
             url: https://github.com/gurusabarish/HugoProfileV2
 
       - title: Robot Pompier
+        id : pompier
         content: un truc
         image: /images/projects/rb.png
         # featured:
