@@ -1031,7 +1031,7 @@ footer p {font-size: 14px;}
     font-size: 16px;
 }
 
-.modal .close {font-size: 1rem;}
+.modal .close {font-size: 1.5rem;}
 .modal .close:hover {color: var(--dark-blue);}
 
 .project-left-col {padding: 10px 2%;}
@@ -1106,7 +1106,7 @@ footer p {font-size: 14px;}
 
 @media (min-width: 420px) {
     .modal {font-size: 15px;}
-    .modal .close {font-size: 2rem;}
+    /* .modal .close {font-size: 2rem;} */
     .modal .modal-title {font-size: 19px;}
     .project-left-col {padding: 20px 5%;}
     .modal section h5 {font-size: 17px;}
@@ -1120,7 +1120,7 @@ footer p {font-size: 14px;}
 
 @media (min-width: 576px) {
     .modal {font-size: 16px;}
-    .modal .close {font-size: 3rem;}
+    .modal .close {font-size: 3rem; }
     .modal .modal-title {font-size: 20px;}
     .modal section h5 {font-size: 18px;}
 
