@@ -110,7 +110,7 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Bonjour! Je suis "
+    #intro: "Bonjour! Je suis "
     title: "Alban Le Rouzic"
     subtitle: "Ingénieur en Informatique"
     content: "Passioné par les sciences du numérique, j'ai entrepris un cursus orienté génie logiciel dès mon entré en école d'ingénieur, mon envie de mettre à profit et de rendre concret mes compétences dans ce domaine, mon conduit poursuivre mes études en école d'ingénieur par la filière en alternance"
